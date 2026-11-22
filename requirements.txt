@@ -1,0 +1,5 @@
+# 依赖
+pycryptodome>=3.19
+cryptography>=41.0
+
+# 不需要 aiohttp / httpx，回传通道是裸 asyncio + ssl

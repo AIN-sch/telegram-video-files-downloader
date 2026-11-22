@@ -1,0 +1,40 @@
+# 运行时缓存，含账号所在 DC，不传
+dc_options.json
+layer.json
+
+# 账号凭证，绝对不能传
+keys.json
+*.key
+*.pem
+tdata_secret*
+
+# 下载产物
+dl/
+*.part
+*.state.json
+*.mp4
+*.jpg
+*.png
+*.webp
+
+# 编译产物
+*.o
+*.obj
+*.dll
+*.exe
+*.lib
+*.exp
+build/
+obj/
+__pycache__/
+*.pyc
+
+# 日志
+*.log
+logs/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+.DS_Store
